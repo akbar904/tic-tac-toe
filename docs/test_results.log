@@ -1,0 +1,24 @@
+test_display_board (__unit_test_board.TestBoard) ... ok
+test_flag_tile (__unit_test_board.TestBoard) ... ok
+test_init (__unit_test_board.TestBoard) ... ok
+test_is_game_over (__unit_test_board.TestBoard) ... ok
+test_is_game_won (__unit_test_board.TestBoard) ... ok
+test_reveal_tile (__unit_test_board.TestBoard) ... ok
+test_flag (__unit_test_tile.TestTile) ... ok
+test_get_display_symbol (__unit_test_tile.TestTile) ... FAIL
+
+======================================================================
+FAIL: test_get_display_symbol (__unit_test_tile.TestTile)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\user\code\walturn\app-builder-ai\app_builder\workspace\src\__unit_test_tile.py", line 62, in test_get_display_symbol
+    self.assertEqual(self.tile.get_display_symbol(), '*')
+AssertionError: 'F' != '*'
+- F
++ *
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.001s
+
+FAILED (failures=1)
